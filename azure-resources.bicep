@@ -1,5 +1,5 @@
 param location string = 'westus3'
-param storageName string = 'xyzgastorageY67'
+param storageName string = 'xyzwgastorage'
 
 resource storageaccount 'Microsoft.Storage/storageAccounts@2021-09-01' = {
   name: storageName
